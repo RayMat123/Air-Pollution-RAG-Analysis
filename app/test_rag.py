@@ -1,4 +1,3 @@
-# test_rag.py
 from rag import generate_answer
 
 def main():

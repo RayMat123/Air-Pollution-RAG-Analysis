@@ -18,7 +18,7 @@ def get_embedding(text):
 if __name__ == "__main__":
     store = VectorStore()
 
-    # IMPORTANT: path is now relative to PROJECT ROOT
+    
     store.load_embeddings("data/air_pollution_embeddings.pkl")
 
     query = "Which cities have high PM2.5 pollution?"

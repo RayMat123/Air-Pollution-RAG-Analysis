@@ -1,4 +1,3 @@
-# ui.py
 import streamlit as st
 from rag import generate_answer
 
