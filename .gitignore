@@ -1,0 +1,21 @@
+# Secrets
+.env
+
+# Environments
+venv/
+.venv/
+env/
+
+# Python Caches
+__pycache__/
+*.pyc
+
+# Data & Models 
+data/*.csv
+data/*.pkl
+data/*.json
+!data/.gitkeep
+
+# OS specific files
+.DS_Store
+Thumbs.db

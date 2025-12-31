@@ -1,0 +1,17 @@
+# Data Processing & Visualization
+pandas
+numpy
+matplotlib
+seaborn
+tqdm
+
+# Machine Learning & Stats
+scikit-learn
+
+# RAG & Vector Search
+openai
+faiss-cpu
+python-dotenv
+
+# Frontend / UI
+streamlit
