@@ -5,6 +5,22 @@ from rag import generate_answer
 st.set_page_config(page_title="Air Quality AI", page_icon="🌍")
 
 st.title("🌍 Air Pollution Chatbot")
+with st.sidebar:
+    st.title("Project Info")
+    st.markdown("### Built by:")
+    st.write("🎓 **Muhammad Raffay Ismat**")
+    st.write("University of Central Punjab")
+    st.write("Course: AI Lab")
+    st.divider()
+    st.markdown("""
+    **Project Overview:**
+    This project uses ElasticNet Regression for trend analysis 
+    and RAG for interactive 
+    querying of global air pollution data. It uses Kaggle's "Global Air Pollution" dataset" by Hasib Al Muzdadid.
+    
+    **Dataset Source:**
+    [Kaggle Link](https://www.kaggle.com/datasets/hasibalmuzdadid/global-air-pollution-dataset)
+    """)
 st.markdown("Ask me about air quality levels in different cities!")
 
 # Initialize chat history
